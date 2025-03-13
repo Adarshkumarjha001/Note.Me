@@ -1,0 +1,35 @@
+#main{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.rect{
+    display:flex;
+}
+
+.shape{
+    height:200px;
+    width: 200px;
+    font-family:'Montserrat';
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#cursor{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background-color: aqua;
+    position: absolute;
+
+}
+
+/* rgb(a,b,c) a,b,c 0-255 */
+
